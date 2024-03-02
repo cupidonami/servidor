@@ -1,10 +1,12 @@
-<?php
+<?php>
 
 echo "Marcas de maquillaje por Keren Gastelum";
 
-$makeup = array('Blush', 'labial', 'lipgloss', 'lapizlabial');
+$makeup = array('Blush', 'labial', 'lipgloss', 'lapizlabial', 'primer');
+$PRECIO = array (160.20, 110.50, 99.99, 57.80, 172.99);
 
-echo $makeup;
+$maybelline = $makeup + $PRECIO;
 
-echo json_encode($makeup);
+
+echo json_encode($maybelline);
 ?>
